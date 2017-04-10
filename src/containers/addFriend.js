@@ -18,9 +18,6 @@ let AddFriend = ({dispatch}) => {
                 }
 
                 // TODO переделать лютый ужас
-
-
-
                 dispatch(addFriend({
                     firstName: inputs.firstName,
                     lastName: inputs.lastName
