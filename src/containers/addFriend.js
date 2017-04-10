@@ -23,6 +23,7 @@ let AddFriend = ({dispatch}) => {
                     lastName: inputs.lastName
                 }));
 
+
             }}>
                 <div>firstName <input type="text" name="firstName" ref={(firstName) => {
                  inputs.firstName = firstName; }
