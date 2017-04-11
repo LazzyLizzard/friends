@@ -30,6 +30,7 @@ const store = createStore(reducer);
 
 ReactDOM.render(
     <Provider store={store}>
+
         <FriendsApp />
     </Provider>,
     document.getElementById('root')
