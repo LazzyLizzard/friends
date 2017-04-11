@@ -9,6 +9,7 @@ import { Provider } from 'react-redux'
 
 //import App from './App';
 import FriendsApp from './components/friendsApp';
+import FriendsList from './components/friendsList';
 //import './index.css';
 import reducer from './reducers'
 
@@ -30,7 +31,7 @@ const store = createStore(reducer);
 
 ReactDOM.render(
     <Provider store={store}>
-
+        <FriendsList/>,
         <FriendsApp />
     </Provider>,
     document.getElementById('root')

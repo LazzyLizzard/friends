@@ -1,8 +1,8 @@
 import React, { Component, PropTypes } from 'react';
 import mapValues from 'lodash/object/mapValues';
 
-//import styles from './FriendList.css';
-import FriendListItem from './../components/FriendListItem';
+import styles from './FriendList.css';
+import FriendListItem from './FriendListItem';
 
 export default class FriendList extends Component {
     static propTypes = {
