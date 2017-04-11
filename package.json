@@ -14,7 +14,8 @@
     "redux-thunk": "^2.2.0",
     "recompose": "^0.22.0",
     "reselect": "^3.0.0",
-    "styled-components": "^1.4.4"
+    "styled-components": "^1.4.4",
+    "lodash": "^3.10.1"
   },
   "devDependencies": {
     "node-plop": "^0.5.5",
